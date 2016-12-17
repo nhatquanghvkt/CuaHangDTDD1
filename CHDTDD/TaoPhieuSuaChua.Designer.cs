@@ -1,6 +1,6 @@
 ﻿namespace CHDTDD
 {
-    partial class Form1
+    partial class TaoPhieuSuaChua
     {
         /// <summary>
         /// Required designer variable.

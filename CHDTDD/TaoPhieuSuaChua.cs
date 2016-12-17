@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CHDTDD
 {
-    public partial class Form1 : Form
+    public partial class TaoPhieuSuaChua : Form
     {
-        public Form1()
+        public TaoPhieuSuaChua()
         {
             InitializeComponent();
         }

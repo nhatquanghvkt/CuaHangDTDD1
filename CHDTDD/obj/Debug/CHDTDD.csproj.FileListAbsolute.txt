@@ -1,1 +1,2 @@
 c:\users\administrator pc\documents\visual studio 2013\Projects\CHDTDD\CHDTDD\bin\Debug\CHDTDD.exe.config
+C:\Users\Administrator PC\Documents\Visual Studio 2013\Projects\CHDTDD\CuaHangDTDD1\CHDTDD\bin\Debug\CHDTDD.exe.config
