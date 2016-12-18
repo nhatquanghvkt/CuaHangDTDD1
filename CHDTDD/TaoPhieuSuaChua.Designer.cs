@@ -39,11 +39,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -51,40 +59,33 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
+            this.txtHD = new System.Windows.Forms.TextBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.timeEdit3 = new DevExpress.XtraEditors.TimeEdit();
+            this.dateEdit3 = new DevExpress.XtraEditors.DateEdit();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.timeEdit2 = new DevExpress.XtraEditors.TimeEdit();
             this.timeEdit1 = new DevExpress.XtraEditors.TimeEdit();
             this.dateEdit2 = new DevExpress.XtraEditors.DateEdit();
-            this.timeEdit2 = new DevExpress.XtraEditors.TimeEdit();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.dateEdit3 = new DevExpress.XtraEditors.DateEdit();
-            this.timeEdit3 = new DevExpress.XtraEditors.TimeEdit();
-            this.label16 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.txtHD = new System.Windows.Forms.TextBox();
+            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timeEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timeEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.timeEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeEdit3.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -207,6 +208,50 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Thông tin sản phẩm";
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(87, 300);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(378, 21);
+            this.comboBox2.TabIndex = 8;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(87, 140);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(200, 21);
+            this.comboBox1.TabIndex = 7;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(87, 100);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.TabIndex = 6;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(510, 19);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(135, 20);
+            this.textBox14.TabIndex = 5;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(369, 19);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(135, 20);
+            this.textBox13.TabIndex = 5;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(228, 19);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(135, 20);
+            this.textBox9.TabIndex = 5;
+            // 
             // textBox6
             // 
             this.textBox6.Location = new System.Drawing.Point(87, 19);
@@ -235,12 +280,28 @@
             this.textBox10.Size = new System.Drawing.Size(558, 20);
             this.textBox10.TabIndex = 5;
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(279, 60);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(186, 20);
+            this.textBox7.TabIndex = 5;
+            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(87, 60);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(186, 20);
             this.textBox5.TabIndex = 5;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 303);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(69, 13);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Kỹ thuật viên";
             // 
             // label13
             // 
@@ -305,66 +366,6 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Model";
             // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(228, 19);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(135, 20);
-            this.textBox9.TabIndex = 5;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(369, 19);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(135, 20);
-            this.textBox13.TabIndex = 5;
-            // 
-            // textBox14
-            // 
-            this.textBox14.Location = new System.Drawing.Point(510, 19);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(135, 20);
-            this.textBox14.TabIndex = 5;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(87, 100);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 6;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(87, 140);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 7;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(279, 60);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(186, 20);
-            this.textBox7.TabIndex = 5;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 303);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 13);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Kỹ thuật viên";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(87, 300);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(378, 21);
-            this.comboBox2.TabIndex = 8;
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtHD);
@@ -387,44 +388,75 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Lập hẹn/Yêu cầu";
             // 
-            // label11
+            // txtHD
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(32, 38);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(46, 13);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Lập hẹn";
+            this.txtHD.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHD.Location = new System.Drawing.Point(56, 178);
+            this.txtHD.Multiline = true;
+            this.txtHD.Name = "txtHD";
+            this.txtHD.Size = new System.Drawing.Size(326, 110);
+            this.txtHD.TabIndex = 29;
             // 
-            // label14
+            // checkBox2
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(3, 76);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(119, 13);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Yêu cầu từ khách hàng";
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(205, 150);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(74, 17);
+            this.checkBox2.TabIndex = 9;
+            this.checkBox2.Text = "Nhận Thẻ";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // label15
+            // label16
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(23, 119);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(70, 13);
-            this.label15.TabIndex = 1;
-            this.label15.Text = "Đã nhận máy";
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(6, 178);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(44, 13);
+            this.label16.TabIndex = 7;
+            this.label16.Text = "Ghi chú";
             // 
-            // dateEdit1
+            // timeEdit3
             // 
-            this.dateEdit1.EditValue = null;
-            this.dateEdit1.Location = new System.Drawing.Point(137, 35);
-            this.dateEdit1.Name = "dateEdit1";
-            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.timeEdit3.EditValue = new System.DateTime(2016, 12, 12, 0, 0, 0, 0);
+            this.timeEdit3.Location = new System.Drawing.Point(282, 113);
+            this.timeEdit3.Name = "timeEdit3";
+            this.timeEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.timeEdit3.Size = new System.Drawing.Size(100, 20);
+            this.timeEdit3.TabIndex = 6;
+            // 
+            // dateEdit3
+            // 
+            this.dateEdit3.EditValue = null;
+            this.dateEdit3.Location = new System.Drawing.Point(137, 113);
+            this.dateEdit3.Name = "dateEdit3";
+            this.dateEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit1.Size = new System.Drawing.Size(139, 20);
-            this.dateEdit1.TabIndex = 2;
+            this.dateEdit3.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit3.Size = new System.Drawing.Size(139, 20);
+            this.dateEdit3.TabIndex = 5;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(72, 150);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(72, 17);
+            this.checkBox1.TabIndex = 4;
+            this.checkBox1.Text = "Nhận Sim";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // timeEdit2
+            // 
+            this.timeEdit2.EditValue = new System.DateTime(2016, 12, 12, 0, 0, 0, 0);
+            this.timeEdit2.Location = new System.Drawing.Point(282, 73);
+            this.timeEdit2.Name = "timeEdit2";
+            this.timeEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.timeEdit2.Size = new System.Drawing.Size(100, 20);
+            this.timeEdit2.TabIndex = 3;
             // 
             // timeEdit1
             // 
@@ -448,85 +480,64 @@
             this.dateEdit2.Size = new System.Drawing.Size(139, 20);
             this.dateEdit2.TabIndex = 2;
             // 
-            // timeEdit2
+            // dateEdit1
             // 
-            this.timeEdit2.EditValue = new System.DateTime(2016, 12, 12, 0, 0, 0, 0);
-            this.timeEdit2.Location = new System.Drawing.Point(282, 73);
-            this.timeEdit2.Name = "timeEdit2";
-            this.timeEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.dateEdit1.EditValue = null;
+            this.dateEdit1.Location = new System.Drawing.Point(137, 35);
+            this.dateEdit1.Name = "dateEdit1";
+            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.timeEdit2.Size = new System.Drawing.Size(100, 20);
-            this.timeEdit2.TabIndex = 3;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(72, 150);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(72, 17);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "Nhận Sim";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // dateEdit3
-            // 
-            this.dateEdit3.EditValue = null;
-            this.dateEdit3.Location = new System.Drawing.Point(137, 113);
-            this.dateEdit3.Name = "dateEdit3";
-            this.dateEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit3.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit3.Size = new System.Drawing.Size(139, 20);
-            this.dateEdit3.TabIndex = 5;
+            this.dateEdit1.Size = new System.Drawing.Size(139, 20);
+            this.dateEdit1.TabIndex = 2;
             // 
-            // timeEdit3
+            // label15
             // 
-            this.timeEdit3.EditValue = new System.DateTime(2016, 12, 12, 0, 0, 0, 0);
-            this.timeEdit3.Location = new System.Drawing.Point(282, 113);
-            this.timeEdit3.Name = "timeEdit3";
-            this.timeEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.timeEdit3.Size = new System.Drawing.Size(100, 20);
-            this.timeEdit3.TabIndex = 6;
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(23, 119);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(70, 13);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "Đã nhận máy";
             // 
-            // label16
+            // label14
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 178);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(44, 13);
-            this.label16.TabIndex = 7;
-            this.label16.Text = "Ghi chú";
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(3, 76);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(119, 13);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Yêu cầu từ khách hàng";
             // 
-            // checkBox2
+            // label11
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(205, 150);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(74, 17);
-            this.checkBox2.TabIndex = 9;
-            this.checkBox2.Text = "Nhận Thẻ";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(32, 38);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(46, 13);
+            this.label11.TabIndex = 0;
+            this.label11.Text = "Lập hẹn";
             // 
-            // txtHD
+            // button2
             // 
-            this.txtHD.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHD.Location = new System.Drawing.Point(56, 178);
-            this.txtHD.Multiline = true;
-            this.txtHD.Name = "txtHD";
-            this.txtHD.Size = new System.Drawing.Size(326, 110);
-            this.txtHD.TabIndex = 29;
+            this.button2.Location = new System.Drawing.Point(685, 423);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(153, 44);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "SAVE";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // TaoPhieuSuaChua
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1081, 505);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Name = "TaoPhieuSuaChua";
             this.Text = "TẠO PHIẾU SỬA CHỮA";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -534,15 +545,15 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timeEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.timeEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.timeEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.timeEdit3.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -594,6 +605,7 @@
         private DevExpress.XtraEditors.TimeEdit timeEdit2;
         private DevExpress.XtraEditors.TimeEdit timeEdit1;
         private DevExpress.XtraEditors.DateEdit dateEdit2;
+        private System.Windows.Forms.Button button2;
     }
 }
 

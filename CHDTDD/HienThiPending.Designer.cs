@@ -67,9 +67,10 @@
             // 
             // Column1
             // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.Column1.HeaderText = "STT";
             this.Column1.Name = "Column1";
+            this.Column1.Width = 53;
             // 
             // Column2
             // 
