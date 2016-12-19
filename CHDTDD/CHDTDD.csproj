@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Data.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -73,6 +74,12 @@
     <Compile Include="HienThiPending.Designer.cs">
       <DependentUpon>HienThiPending.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLyKTV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyKTV.Designer.cs">
+      <DependentUpon>QuanLyKTV.cs</DependentUpon>
+    </Compile>
     <Compile Include="TaoPhieuSuaChua.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pending.resx">
       <DependentUpon>Pending.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyKTV.resx">
+      <DependentUpon>QuanLyKTV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TaoPhieuSuaChua.resx">
       <DependentUpon>TaoPhieuSuaChua.cs</DependentUpon>
